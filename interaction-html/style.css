@@ -1,0 +1,136 @@
+body{
+  background: rgb(206, 182, 255);
+}
+
+p{
+  font-size:21px;
+}
+
+h1{
+  font-size:40px;
+  font-family:cursive;
+  color:rgb(255, 248, 189);
+}
+
+hr{
+  border: 1px dashed rgb(255, 248, 189);
+}
+
+.main{
+  font-family:sans-serif;
+  font-size:50px;
+  color:rgb(255, 248, 189);
+  width: 55%;
+}
+
+.use{
+  font-family:sans-serif;
+  font-size:50px;
+  color:rgb(255, 248, 189);
+  width: 55%;
+}
+
+.said{
+  font-family: 'Italianno', cursive;
+  font-size: 30px;
+  border: 2px dashed;
+  border-radius: 20%;
+  padding: 50px 50px 50px 50px;
+  color:rgb(179, 244, 255);
+  background-color:rgb(206, 182, 255);
+  position:absolute;
+  top:0px;
+  right:30px;
+  text-align: left;
+  width:400px;
+}
+
+.special{
+  color:rgb(206, 182, 255);
+  display:inline;
+}
+
+.special-img{
+  position: absolute;
+  opacity:0;
+  transition: opacity 1s ease;
+}
+
+.first{
+  opacity:0;
+  transition:opacity 5s ease;
+  display:none;
+}
+
+.special:hover {
+  color:rgb(255, 96, 6);
+}
+
+.special:hover .special-img{
+  opacity:1;
+}
+
+.one{
+  top:300px;
+  right:300px;
+  width:200px;
+  z-index: 999;
+}
+
+.two{
+  top:500px;
+  right:300px;
+  height:300px;
+}
+
+.three{
+  top:500px;
+  right:50px;
+  height:400px;
+}
+
+.four{
+  top:600px;
+  right:300px;
+  height:200px;
+}
+
+.five{
+  top:800px;
+  right:200px;
+  height:400px;
+}
+
+.six{
+  top:900px;
+  right:100px;
+  width:400px;
+}
+
+.object{
+  position:absolute;
+  top:10px;
+  right:0px;
+  transition: border-radius 2s ease,
+              background 1s ease,
+              transfrom 4s ease;
+}
+
+.object:hover{
+  border-radius:0;
+  transform: scale(2);
+}
+
+.highlight{
+  color:rgb(255, 248, 189);
+  display:inline;
+}
+
+.highlight:hover{
+  color:rgb(255, 96, 6);
+}
+
+.highlight:hover .first{
+  opacity:1;
+  display:block;
+}

@@ -1,0 +1,123 @@
+body{
+  background-color: #8ccfd9;
+  margin:20px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:650px;
+  max-width: 100%;
+}
+.blue {
+  position: relative;
+  text-align: center;
+  font-family: 'Italianno', cursive;
+  font-size: 50px;
+  color:white;
+  background-color: #ff9494;
+}
+
+.artist_name{
+  display: block;
+  margin-left: 10px;
+  margin-right: 100px;
+  font-size: 40px;
+  text-align: center;
+  border:10px dotted #ff9494;
+  border-radius: 100px;
+  width:100px;
+  padding: 20px 100px;
+  font-family: cursive;
+  color:white;
+}
+
+
+.first_text{
+  position: absolute;
+  top:110px;
+  right:30px;
+  width: 700px;
+  height:100px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  color:white;
+  max-width: 100%;
+}
+
+.second_text{
+  display: block;
+  margin-left: 10px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+  color:white;
+}
+
+a{
+  text-decoration:underline;
+  color:#ff9494;
+  font-style: italic;
+}
+
+p{
+  color:white;
+  font-family: 'Dosis', sans-serif;
+  font-style: Extra-light;
+  font-size: 20px;
+}
+
+hr{
+  border: 2px dashed #ff9494;
+}
+
+.question{
+  display: block;
+  margin-left: 10px;
+  margin-right: 100px;
+  border: 2px hidden;
+  border-radius: 70px;
+  width: 800px;
+  background-color: white;
+  padding: 30px 30px 30px 30px;
+  font-size:20px;
+  color: #54eb97;
+  max-width: 100%;
+}
+
+.answer{
+  display: block;
+  margin-left: auto;
+  margin-right: 10px;
+  border: 2px hidden;
+  border-radius: 70px;
+  width:800px;
+  height: auto;
+  font-family: 'Italianno', cursive;
+  font-size: 30px;
+  background-color: #54eb97;
+  padding: 30px 30px 30px 30px;
+  color: white;
+  max-width: 100%;
+}
+
+.all{
+  color:#ff6214;
+}
+
+.tip_title{
+  font-size:50px;
+  height: auto;
+  font-family: 'Italianno', cursive;
+  color: white;
+  background-color: #ff9494;
+  position: relative;
+  text-align: center;
+}
+
+.tip{
+  position:relative;
+  text-align:center;
+  height: auto;
+  border: 30px dashed rgb(255, 254, 152);
+  font-size: 30px;
+}
