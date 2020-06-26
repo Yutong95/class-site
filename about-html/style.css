@@ -1,0 +1,28 @@
+body{
+  background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+}
+
+/* h1{
+  font-family: 'Italianno', cursive;
+  color:rgb(219, 255, 225);
+  font-size: 4rem;
+  position: absolute;
+  top:10px;
+  left:20px;
+  z-index: 1;
+} */
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  opacity:100%;
+}
+
+p{
+  font-family: 'Italianno', cursive;
+  color: rgb(255, 251, 199);
+  font-size: 3rem;
+  position:absolute;
+}
